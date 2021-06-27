@@ -3,6 +3,11 @@
 #include "llvm/IR/Function.h"
 #include "llvm/IR/InstIterator.h"
 #include "llvm/IR/CFG.h"
+#include "llvm/Support/raw_ostream.h"
+#include "llvm/IR/BasicBlock.h"
+#include <bits/stdc++.h>
+#include "llvm/ADT/BitVector.h"
+#include "llvm/IR/Operator.h"
 
 #include <vector>
 #include <set>
